@@ -3,7 +3,7 @@
   "manifest_version": "2.0",
   "name": "Vesktop",
   "description": "Desktop Discord client with Vencord support.",
-  "version": "1.6.5",
+  "version": "1.6.7",
   "image": "ghcr.io/containerpak/vesktop:main",
   "binaries": ["/usr/bin/vesktop"],
   "desktop_entries": ["/usr/share/applications/vesktop.desktop"],
