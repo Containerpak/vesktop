@@ -1,14 +1,49 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Containerpak/cpak/v2/schema/manifest-v2.json",
-  "manifest_version": "2.0",
+  "$schema": "https://raw.githubusercontent.com/Containerpak/cpak/v2/schema/manifest-v3.json",
+  "manifest_version": "3.0",
   "name": "Vesktop",
   "description": "Desktop Discord client with Vencord support.",
   "version": "1.6.7",
-  "image": "ghcr.io/containerpak/vesktop:main",
-  "binaries": ["/usr/bin/vesktop"],
-  "desktop_entries": ["/usr/share/applications/vesktop.desktop"],
+  "image": "ghcr.io/containerpak/vesktop@sha256:973992bd180db37833262562a3a1248f44cd2173caaac128c1cb18676e6e67ee",
+  "binaries": [
+    "/usr/bin/vesktop"
+  ],
+  "desktop_entries": [
+    "/usr/share/applications/vesktop.desktop"
+  ],
   "dependencies": [],
   "addons": [],
   "idle_time": 0,
-  "override": {"socketX11": true, "socketWayland": true, "socketPulseAudio": true, "socketSessionBus": true, "socketSystemBus": false, "socketSshAgent": false, "socketCups": false, "socketGpgAgent": false, "socketAtSpiBus": true, "socketBluetooth": false, "deviceDri": true, "deviceKvm": false, "deviceShm": true, "deviceAlsa": false, "deviceVideo": true, "deviceFuse": false, "deviceTun": false, "deviceUsb": false, "deviceAll": false, "notification": true, "openURI": true, "filesystem": [{"path": "home", "access": "read-write"}], "env": [], "network": true, "process": false, "userNamespaces": false, "memoryMaxMB": 0, "cpuQuota": 0, "pidsMax": 0, "asRoot": false, "allowedHostCommands": []}
+  "override": {
+    "socketWayland": true,
+    "socketPulseAudio": true,
+    "socketSshAgent": false,
+    "socketCups": false,
+    "socketGpgAgent": false,
+    "deviceDri": true,
+    "deviceKvm": false,
+    "deviceShm": true,
+    "deviceAlsa": false,
+    "deviceVideo": true,
+    "deviceFuse": false,
+    "deviceTun": false,
+    "deviceUsb": false,
+    "deviceAll": false,
+    "notification": true,
+    "openURI": true,
+    "filesystem": [
+      {
+        "path": "home",
+        "access": "read-write"
+      }
+    ],
+    "env": [],
+    "network": true,
+    "process": false,
+    "userNamespaces": false,
+    "memoryMaxMB": 0,
+    "cpuQuota": 0,
+    "pidsMax": 0,
+    "asRoot": false
+  }
 }
