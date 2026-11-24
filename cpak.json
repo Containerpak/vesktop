@@ -4,7 +4,7 @@
   "name": "Vesktop",
   "description": "Desktop Discord client with Vencord support.",
   "version": "1.6.7",
-  "image": "ghcr.io/containerpak/vesktop@sha256:9ef3a0bf43d0a09f7ed93af20c558e644aae542fbd2f247134ad0ac1e9f5f901",
+  "image": "ghcr.io/containerpak/vesktop@sha256:37f55de72cf9841eebfb8e9b593b4cb8b55ed8687c2200331c2f8fda70798b28",
   "binaries": [
     "/usr/bin/vesktop"
   ],
